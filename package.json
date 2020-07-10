@@ -1,0 +1,30 @@
+{
+  "name": "lti-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Juan P Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MISO4202/201920-proyecto-grupo4/issues"
+  },
+  "homepage": "https://github.com/MISO4202/201920-proyecto-grupo4#readme",
+  "dependencies": {
+    "aejs": "^0.2.1",
+    "aes-js": "^3.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-session": "^1.13.0",
+    "http-proxy": "^1.18.0",
+    "ims-lti": "^3.0.2",
+    "nodemon": "^2.0.2",
+    "passport": "^0.3.2",
+    "cors": "^2.8.1"
+  }
+}
